@@ -1,0 +1,10 @@
+*{margin: 0px; padding: 0px;}
+.main{width: 960px; height: 660px; margin: auto; background-color: green;}
+.header{width: 960px; height: 200px; background-color: red;
+		font-size: 50px; font-family: Brush Script MT; color:white ;
+		}
+.content{width: 960px; height: 400px; background-color:;}
+.left-content{width: 30px; height: 400px; background-color: red; float: left;}
+.middle-content{width: 900px; height: 400px; background-color: white; float: left;}
+.right-content{width: 30px; height: 400px; background-color: red; float: left;}
+.footer{width: 960px; height: 60px; background-color: red;}

@@ -1,0 +1,12 @@
+body{
+	  background:url('images/violin-1906127__340.jpg')no-repeat;
+	  background-size:cover;
+      font-family:Arial;
+	  font-color:white;}
+	  
+
+ul li{
+	float:left;
+	width:200px;
+	height:50px;
+background-color:black;}

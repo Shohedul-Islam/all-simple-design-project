@@ -1,0 +1,131 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<div id="Home"><!----------------------------------Home-------------------------------------------->
+ 
+ <div class="menubar"><!-----menu---->
+            <ul>
+                 <li><a href="#Home"><u>Home</u></a></li>
+                 <li><a href="#About">About</a></li>
+				 <li><a href="#box2">service</a></li>
+                 <li><a href="">Team</a></li>
+                 <li><a href="#contact">Contact</a></li>
+            </ul>
+ </div><!-----menu---->
+	
+<br>
+<div class="text">
+              <h2>I Am Depressed</h2>
+			  <p>I was actually made from sand-</br>i am glass and i am broken inside</br> that's
+			   why no one can't see it?</p>
+       <div class="Learnmore template">
+               <a href="#">Learn more</a>
+       </div>    
+</div>        
+</div><!----------------------------------End    Home-------------------------------------------->
+
+<div id="About"><!---------------------About------------------------------------------------------->
+	             <div class="heading">
+						<h1>Welcome TO Website</h1>
+				</div>
+                  <!-- about -->
+					<div class="about">
+						<h3>Fully Customizible</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.
+						Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read more</a>
+					</div>
+				<!-- /about -->
+				
+				  <!-- about -->
+					<div class="about">
+						
+						<h3>Fully Customizible</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.
+						Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read more</a>
+					</div>
+				<!-- /about -->
+				
+				  <!-- about -->
+					<div class="about">
+						
+						<h3>Fully Customizible</h3>
+						<p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.
+						Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
+						<a href="#">Read more</a>
+					</div>
+				<!-- /about -->
+				
+</div><!---------------------About------------------------------------------------------->
+
+<div id="contact"><!---------------------contact------------------------------------------------------->
+             
+	                    <div class="cheading">
+						<h1>Get In Touch</h1>
+						</div>
+			<div class="middle">
+                  <!-- contact1 -->
+					<div class="contact">
+						<img src="">
+						<h3>Phone</h3>
+						<p>01710488865</p>	
+					</div>
+				<!-- /contact1 -->
+				 <!-- contact1 -->
+					<div class="contact">
+						<img src="">
+						<h3>Email</h3>
+						<p>Shohedulislamemon@gmail.com</p>	
+					</div>
+				<!-- /contact1 -->
+				 <!-- contact1 -->
+					<div class="contact">
+						<img src="">
+						<h3>Address</h3>
+						<p>Jhenaidah</p>	
+					</div>
+					<!-- /contact1 -->
+			</div>
+		
+<div class="form"><!--------form------>
+  <form action="">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname">
+	<label for="Massage">Email</label>
+    <input type="text" id="Subject" name="Massage">
+	<label for="Massage">Massage</label>
+    <input type="text" id="Massage" name="Massage">
+	
+    <input type="submit" value="Submit">
+  </form>
+</div><!--------end form------>
+				
+</div><!---------------------end contact------------------------------------------------------->
+
+<script>
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
+</script>
+   
+
+
+</body>
+</html>

@@ -1,0 +1,133 @@
+
+.header ul li {
+    float: right;
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    text-decoration: underline;
+}
+#sbtn{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #587FF8;
+    border:0px solid  #587FF8;
+    height: 30px;
+    width: 70px;
+    color: white;
+    border-radius: 2px;
+    font-style: bold;
+    margin-top: -5px;
+}
+#sbtn:hover{
+    box-shadow: 0.1px 0.1px 1px black;
+}
+.appclass{
+    float: right;
+    width: 26px;
+    
+    height: 27px;
+    background-image: url(images/appinac.PNG);
+    
+}
+.appclass:hover{
+    background-image: url(images/app.PNG);
+    cursor: pointer;
+    
+}
+#mainimage{
+   margin-left: 540px;
+    margin-top: 182px;
+}
+#txtinput{
+    margin-left: 400px;
+    margin-top: 30px;
+    height: 10px;
+    width: 500px;
+    padding: 15px;
+    font-size: 16px;
+    border: none;
+    box-shadow: 0.3px 0.3px 3px grey;
+    background-image: url(images/input_image.PNG);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right:40px;
+}
+#txtinput:hover {
+    box-shadow: 1px 1px 5px grey;
+}
+.footer ul li{
+    width: auto;
+    margin-top: -16px;
+    background-color: #F2F2F2;
+    padding: 13px;
+    float: right;
+    list-style: none;
+}
+.footer{
+    margin-top: 145px;
+	
+}
+.srcbtn{
+    margin-left: 520px;
+    margin-top: 30px;
+}
+.btnsrc{
+    background-color: #F6F6F6;
+    border:0px solid  #F6F6F6;
+    height: 37px;
+    margin-left: 5px;
+    width: 150px;
+    color: dimgrey;
+    border-radius: 2px;
+    font-family: sans-serif bold;
+	font-size: 14px;
+	font-style: bold;
+}
+.btnsrc:hover{
+    border: 1px solid #C5C5C5;
+    color: black;
+}
+
+.naser{
+    background-color: #F2F2F2;
+    height: 50px;
+   
+}
+.bd{
+	background-color: #F2F2F2;
+	margin-top: -51px;
+	padding: 1px;
+	border-bottom: 0.3px solid #E3E3E3;
+	border-top: 0.3px solid #E3E3E3;
+}
+.llink{
+	float: left;
+	display: inline;
+	margin-top: 0px;margin-left: -40px;
+	
+}
+p{
+	margin-left: 10px;
+	color: #6F6F6F;
+}
+.googleoffer {
+	margin-left: 600px;
+	color: #272727;
+}
+#bnlink{
+	color: blue;
+	font-size: 12px;
+}
+.llink li a{
+	color: #6F6F6F;
+}
+.footer ul li a{
+	color: #6F6F6F;
+}
+

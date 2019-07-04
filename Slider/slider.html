@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <title>Auto Slideshow creation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <body>
+    <center>
+        <h2 class="autoslide">Automatic Slideshow</h2>
+
+        <div class="mainslide" style="max-width:800px;max-height: 450px;">
+            <img class="mySlides" src="a.jpg" style="width:100%">
+            <img class="mySlides" src="b.jpg" style="width:100%;height: 90%;">
+            <img class="mySlides" src="c.jpg" style="width:100%;height: 90%;">
+            <img class="mySlides" src="d.jpg" style="width:100%">
+            <img class="mySlides" src="e.jpg" style="width:100%">
+            <img class="mySlides" src="j.jpg" style="width:100%">
+        </div>
+        </center>
+        
+        <script>
+            var myIndex = 0;
+            carousel();
+
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 2000); // Change image every 2 seconds
+            }
+        </script>
+
+    </body>
+</html>

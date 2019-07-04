@@ -1,0 +1,166 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="css/newstyle.css" />
+</head>
+
+<body>
+    <div id="main">
+        <!-------mai----------------->
+        <div id="header">
+            <!-------header----------------->
+            <h1>Online Student Management System</h1>
+        </div>
+        <!-------header----------------->
+        <div id="nav">
+            <!-------nav----------------->
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="">Registration</a>
+                    <ul>
+                        <li><a href="Reg page/registration.html">Student Registration</a></li>
+                        <li><a href="">New Staff Registration</a></li>
+                        <li><a href="">New Admin Registration</a></li>
+                    </ul>
+                </li>
+                <li><a href="display/display.php">Student List</a></li>
+                <li><a href="">Gallary</a></li>
+            </ul>
+        </div>
+        <!-------end nav----------------->
+        <div id="content">
+            <!-------Content----------------->
+            <div id="container">
+                <!-------Container----------------->
+                <div id="samepost">
+                    <h2>Welcome to Student Management System</h2>
+                    <p>
+                        The student management system is a web base application whis would be use provide online suppotrt to the collage management and also to the student.the web application would be must more helpful to get the information about the fooes ststus of student attendance and result etc.
+                        <br> The management would feel that their good will has increased by providing sucs as and online application in market
+                    </p>
+                    <div class="mainslide" style="max-width:100%;max-height: 270px; overflow:hidden;margin-left:10px;">
+                        <img class="mySlides" src="image/a.jpg" style="width:100%">
+                        <img class="mySlides" src="image/b.jpg" style="width:100%;height: 90%;">
+                        <img class="mySlides" src="image/e.jpg" style="width:100%;height: 90%;">
+                        <img class="mySlides" src="image/b.jpg" style="width:100%">
+                        <img class="mySlides" src="image/a.jpg" style="width:100%">
+                        <img class="mySlides" src="image/b.jpg" style="width:100%">
+                    </div>
+
+
+                    <script>
+                        var myIndex = 0;
+                        carousel();
+
+                        function carousel() {
+                            var i;
+                            var x = document.getElementsByClassName("mySlides");
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            myIndex++;
+                            if (myIndex > x.length) {
+                                myIndex = 1
+                            }
+                            x[myIndex - 1].style.display = "block";
+                            setTimeout(carousel, 2000); // Change image every 2 seconds
+                        }
+
+                    </script>
+                    <p>The management would feel that their good will has increased by providing sucs as and online application in market gdghgh ghdesh.
+                    </p>
+                </div>
+
+
+            </div>
+            <!-------Container----------------->
+            <div id="sidebar">
+                <!-------sidebar----------------->
+                <div id="samesidebar">
+                    <h2>Loging panel</h2>
+                    <form>
+                        <br>
+                        <level>User Name</level>
+                        <input type="text" name="name" placeholder="Enter Your User Name">
+
+                        <level>Password</level>
+                        <input type="password" name="pass" placeholder="Enter Your password">
+
+                        <input type="submit" value="Submit" onclick="validation()">
+                    </form>
+                </div>
+                <div id="samesidebar">
+                    <h2>PROTFOUO NEWS</h2>
+                    <p>sidber text will be go here sidber text will be go here sidebar text will be go here sidber text will be go here sidber text will be go here sidebar text will be go here some text will be go heresome text will be go hersome text will be go heresome text will be go here
+                    </p>
+                    <p>sidber text will be go here sidber text will be go here sidebar text will be go here sidber text will be go here sidber text will be go here sidebar text will be go here some text will be go heresome text will be go her some text will be go heresome text will be go here</p>
+                </div>
+
+
+
+            </div>
+            <!-------sidebar----------------->
+
+        </div>
+        <!-------end Content----------------->
+        <div id="regsection">
+            <!----regsec-->
+            <div id="box1">
+                <!----stdpnl--->
+                <h2>Student Panel</h2>
+                <div id="bimg">
+                    <img src="image/download%20(1).jpg">
+                    <a href="Reg page/registration.html"> <input type="button" value="New Student Registration"  onclick="cheeckstd()"></a>
+                    <script type="text/javascript">
+                        function(cheeckstd() {
+                                var r = confirm("if You new student please click ok");
+                                if (r == true) {
+                                    alert("You pressed ok!");
+
+                                } else(r == false) {
+                                    alert("You pressed No!");
+
+                                }
+                            }
+
+                    </script>
+                </div>
+
+
+            </div>
+            <!------end std pnl--->
+
+            <div id="box1">
+                <h2>Staff Panel</h2>
+                <div id="bimg">
+                    <img src="image/download%20(1).jpg">
+                </div>
+                <a href="#"> <input type="button" value="New Staff Registration"  onclick="cheeckstd()"></a>
+            </div>
+
+            <div id="box1">
+                <h2>Admin Panel</h2>
+                <div id="bimg">
+                    <img src="image/download%20(1).jpg">
+                </div>
+                <a href="#"> <input type="button" value="New Admin Registration"  onclick="cheeckstd()"></a>
+            </div>
+
+        </div>
+        <!----regsec----->
+
+        <div id="footer">
+            <p>2018 Modern Cv.All Rights Reserved | Design by:Dj Emon</p>
+        </div>
+    </div>
+    <!-------main----------------->
+
+</body>
+
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="reg.css" />
+
+</head>
+
+<body>
+    <div id="main">
+        <div id="heading">
+            <h1>Student Registration Form</h1>
+        </div>
+        <div id="form">
+            <form action="insert.php" method="post">
+                <level>Student Name:</level>
+                <input type="text" id="sname" name="sname" placeholder="Enter your  Name"><br>
+
+                <level>Father Name:</level>
+                <input type="text" id="fname" name="fname" placeholder="Enter your Father Name"><br>
+
+
+                <level>Roll:</level>
+                <input type="text" id="roll" name="roll" placeholder="Enter your Roll"><br>
+
+                <level>Shift:</level><br>
+                <input type="radio" id="Shift" name="Shift" value="1st Shift" checked> First Shift<br>
+                <input type="radio" id="Shift" name="Shift" value="2nd Shift"> Second Shift<br>
+
+                <level>Email:</level>
+                <input type="text" id="email" name="email" placeholder="Enter your email"><br>
+
+                <level>Gender:</level><br>
+                <input type="radio" name="gender" id="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" id="gender" value="female"> Female<br><br>
+ 
+
+                <level>Date of birth:</level><br>
+                <input type="date" id="date" name="date"><br>
+
+                <level>Address:</level>
+                <input type="text" id="address" name="address" placeholder="Inter Your Address"><br>
+
+                <level>Mobile Number:</level>
+                <input type="text" id="mobile" name="mobile" placeholder="Enter your  Mobile Number"><br>
+
+
+                <input type="submit" value="submit" onclick="return(validation())">
+                <script type="text/javascript">
+                    function validation() {
+                        var fname = document.getElementById('sname').value;
+                        var lname = document.getElementById('fname').value;
+                        var roll = document.getElementById('roll').value;
+                        var Shift = document.getElementById('Shift').value;
+                        var email = document.getElementById('email').value;
+                        var gender = document.getElementById('gender').value;
+                        var birthday = document.getElementById('date').value;
+                        var Address = document.getElementById('address').value;
+                        var Mobile = document.getElementById('mobile').value;
+
+                        if (fname == "") {
+                            alert("Please enter your  name");
+                            return false;
+                        }
+                        if (lname == "") {
+                            alert("Please enter your father name");
+                            return false;
+                        }
+                        if (roll == "") {
+                            alert("Please enter your roll");
+                            return false;
+                        }
+
+                        if (Shift == "") {
+                            alert("Please enter your Shift");
+                            return false;
+                        }
+
+                        if (email == "") {
+                            alert("Please enter your email");
+                            return false;
+                        }
+
+                        if (gender == "") {
+                            alert("Please enter your gender");
+                            return false;
+                        }
+
+                        if (birthday == "") {
+                            alert("Please enter your Birth date");
+                            return false;
+                        }
+
+                        if (Address == "") {
+                            alert("Please enter your Adress");
+                            return false;
+                        }
+
+                        if (Mobile == "") {
+                            alert("Please enter your Mobile Number");
+                            return false;
+                        }
+                    }
+
+                </script>
+
+
+            </form>
+
+        </div>
+    </div>
+
+</body>
+
+</html>
